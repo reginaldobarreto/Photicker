@@ -8,6 +8,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Environment;
 import android.support.constraint.ConstraintLayout;
+import android.support.v4.content.FileProvider;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
@@ -28,10 +29,12 @@ public class SocialUtil {
 
     private static final String HASHTAG = "#";
     private static String TAG = MainActivity.class.getName();
+    static String authority = null;
 
     public static void shareWithWhatsapp(MainActivity mainActivity, ConstraintLayout constraintLayout, View view) {
 
         PackageManager packageManager = mainActivity.getPackageManager();
+
         try {
             packageManager.getPackageInfo("com.whatsapp", 0);
             String filename = "temp_" + System.currentTimeMillis() + ".jpg";

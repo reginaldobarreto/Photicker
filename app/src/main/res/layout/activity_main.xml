@@ -39,7 +39,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -96,21 +95,21 @@
             android:id="@+id/imageViewInstagram"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
             app:srcCompat="@drawable/insta" />
 
         <ImageView
             android:id="@+id/imageViewTwitter"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
             app:srcCompat="@drawable/twitter" />
 
         <ImageView
             android:id="@+id/imageViewFacebook"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
             app:srcCompat="@drawable/face" />
 
         <ImageView
@@ -135,35 +134,35 @@
             android:id="@+id/imageViewZoomIn"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
             app:srcCompat="@drawable/zoom_in" />
 
         <ImageView
             android:id="@+id/imageViewZoomOut"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
             app:srcCompat="@drawable/zoom_out" />
 
         <ImageView
             android:id="@+id/imageViewRotateLeft"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
             app:srcCompat="@drawable/rotate_left" />
 
         <ImageView
             android:id="@+id/imageViewRotateRight"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
             app:srcCompat="@drawable/rotate_right" />
 
         <ImageView
             android:id="@+id/imageViewConfirm"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
             app:srcCompat="@drawable/finish" />
 
         <ImageView
